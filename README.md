@@ -6,11 +6,13 @@ You must have a CXP project configured in your machine before performing this ex
 
 ### Installation & Configuration
 
-- Open the backbase properties and uncomment the following line:
+- Open the file src/main/resources/backbase.properties of your *configuration* project and uncomment the following line:
 
 ```xml
 orchestrator.contenthost.atompath=http://${contentservices.host}:${contentservices.port}/${contentservices.context}/atom
 ```
+
+It will allow external systems to connect to your server using the CMiS standard.
 
 - Compile the configuration project using:
 ```xml
