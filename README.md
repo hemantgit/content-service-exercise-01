@@ -10,12 +10,12 @@ You must have a CXP project configured in your machine before performing this ex
 
 ```xml
 orchestrator.contenthost.atompath=http://${contentservices.host}:${contentservices.port}/${contentservices.context}/atom
-```xml
+```
 
 - Compile the configuration project using:
 ```xml
 mvn clean install
-```xml
+```
 
 - Copy **content-service-exercise-01** into the **services** folder of your project. You can use the git command to clone the project: ```git clone https://github.com/marciofk/content-service-exercise-01.git```
 
