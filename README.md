@@ -44,9 +44,10 @@ mvn clean install
 ### Build & Run
 
 - You must restart your portal server if the application is already running. 
-- Test the route execution by creating the *outbox* folder into *webapps/portalserver*
-- Add some image files into this folder
-- Check if the files are correctly imported into the Shared Content of your portal
+- Test the route execution by:
+	- Creating the *outbox* folder into *webapps/portalserver*
+	- Adding some image files into this folder
+	- Checking if the files are correctly imported into the Shared Content of your portal
 
 
  
